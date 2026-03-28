@@ -1,0 +1,62 @@
+/* 
+    Name: Daniel Fryer
+    Assignment: 2.2 css Sheet
+*/
+
+/* Setting the HTML and Body */
+html, body {
+    font-size: 16px;    
+}
+
+/* Setting the paragraph text */
+p {
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+/* Setting the h1 */
+h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Setting the h2 */
+h2 {
+    font-weight: 500;
+    text-align: left;
+    padding-top: 15px;
+}
+
+/* set the address sytle */
+address {
+    text-align: center;
+}
+
+/* set the link style */
+a {
+    font-weight: bold;
+    font-size: 1.25em;
+    color:#4F3674;
+    text-decoration: none;
+}
+
+/* Hover sytle */
+a:hover {
+    text-decoration: underline;
+    background-color:#D6A800;
+}
+
+/* visitied links sytle */
+a:visited {
+    color:crimson; 
+}
+
+/* Class styles */
+.sentence {
+    font-style: italic;
+}
+
+.intro {
+    text-indent: 2em;
+}
