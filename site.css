@@ -1,0 +1,28 @@
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1, h2, h3, h4{
+    background-color: lightgreen;
+    color: black;
+    border: 1px solid;
+    border-color: #D6A800;
+    padding: 10px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: darkgreen;
+    color: white;
+}
+
+a:visited {
+    color: blue
+}
