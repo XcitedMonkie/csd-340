@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+}
+
+.box{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.boxSolid {
+    border: 1px solid red;
+}
+
+.boxDashed {
+    border: 1px dashed red;
+}
+
+.lastBox {
+    margin-top: 60%;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.lastBox a {
+    float: right;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+li {
+    font-weight: 300;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+ul {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+a:hover {
+    text-decoration: underline;
+}
