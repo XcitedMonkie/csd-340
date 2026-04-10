@@ -1,3 +1,36 @@
 #container {
-    
+  
+}
+
+#image-gallery {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin-top: 10%;
+}
+
+#image-gallery div {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+h3 {
+  text-align: center;
+  color: green
+}
+
+figure {
+  text-align: center;
+  color: red
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 0.75em;
 }
