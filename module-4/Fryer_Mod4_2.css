@@ -34,3 +34,13 @@ figcaption {
   font-style: italic;
   font-size: 0.75em;
 }
+
+.lastBox {
+    margin-top: 60%;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.lastBox a {
+    float: right;
+}
