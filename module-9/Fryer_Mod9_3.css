@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: white;
+}
+
+#container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: navy;
+}
+
+button {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+   
+footer {
+    background-color: #007efc;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

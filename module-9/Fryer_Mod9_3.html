@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        Name: Daniel Fryer
+        Assignment 9.3    
+    -->
+
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+    <meta charset="UTF-8">
+
+    <script>
+        // Setting the JavaScript variables
+        var game = "EverQuest";
+        var wife = "wife";
+        var company = "data team";
+        var hobby = "fishing";
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="Fryer_Mod9_3.css">
+    
+</head>
+
+<body>
+
+<div id="container">
+
+    <h1>Assignment 9.3: JavaScript - Part 1</h1>
+
+    <h2>The Life of Daniel</h2>
+
+    <p>
+        I met my <span id="word1">__________</span> back in 2001 while we were both
+        playing an online game called <span id="word2">__________</span>.
+        We have now been married for over 20 years and still enjoy gaming together.
+    </p>
+
+    
+    <p>
+        I started working with my dad as a carpenter when I was younger,
+        but eventually moved into the technology field. After years with my current
+        company, I now work on the <span id="word3">__________</span>.
+    </p>
+
+    
+
+    <p>
+        Outside of work I enjoy many hobbies. One of my favorite outdoor activities
+        is <span id="word4">__________</span>, especially during warmer weather.
+        I also enjoy board games and online games in my free time.
+    </p>
+
+    <button type="button"
+        onclick="document.getElementById('word1').innerHTML = wife;">
+        Reveal Word 1
+    </button>
+
+    <button type="button"
+        onclick="document.getElementById('word2').innerHTML = game;">
+        Reveal Word 2
+    </button>
+
+    <button type="button"
+        onclick="document.getElementById('word3').innerHTML = company;">
+        Reveal Word 3
+    </button>
+
+    <button type="button"
+        onclick="document.getElementById('word4').innerHTML = hobby;">
+        Reveal Word 4
+    </button>
+
+</div>
+
+<footer>
+    <p>© 2026 Fryer</p>
+    <p><a href="../index.html">Back to Portal</a></p>
+</footer>
+
+</body>
+</html>
