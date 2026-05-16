@@ -1,0 +1,46 @@
+
+body {
+    background-color: #FADEE1;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #FA313F;
+}
+
+.thumbnail {
+    width: 200px;
+    height: 140px;
+    margin: 10px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+#mainImage {
+    width: 500px;
+    height: 320px;
+    border: 5px solid black;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.gallery a {
+    margin: 0 20px;
+}
+
+.main-display {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#mainCaption {
+    display: block;
+    margin-top: 4px;   
+    font-size: 18px;
+    font-weight: bold;
+}

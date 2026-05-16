@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+        Name: Daniel Fryer
+        CSD 340 Assignment 10.3
+    -->
+
+    <meta charset="UTF-8">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" type="text/css" href="fryer_mod10.css">
+    <script src="fryer_mod10.js"></script>
+
+</head>
+
+<body>
+
+    <h1>Assignment 10.3: JavaScript - Part 2</h1>
+
+    
+
+    <!-- Main Image Will change when small images are selected -->
+   <div class="main-display">
+
+        <img id="mainImage"
+            src="images/FullFamily.png"
+            alt="Main Display Image">
+
+        <span id="mainCaption">Full Family</span>
+
+    </div>
+
+
+    <div class="gallery">
+
+    <div>
+        <a href="#"
+           onclick="displayImage('images/AwardWinner.png', 'Award Winner')"
+           onmouseover="
+                james.src='images/WhereWeAreNow.png';
+                document.getElementById('caption1').innerHTML='Where We Are Now';
+           "
+           onmouseout="
+                james.src='images/HowItStarted.png';
+                document.getElementById('caption1').innerHTML='How It Started';
+           ">
+
+            <img border="0"
+                 name="james"
+                 src="images/HowItStarted.png">
+        </a>
+
+        <br>
+
+        <span id="caption1">How It Started</span>
+    </div>
+
+    <div>
+        <a href="#"
+           onclick="displayImage('images/FamilyTrip.png', 'Family Trip')"
+           onmouseover="
+                family.src='images/FullFamily.png';
+                document.getElementById('caption2').innerHTML='Full Family';
+           "
+           onmouseout="
+                family.src='images/JustMarried.png';
+                document.getElementById('caption2').innerHTML='Just Married';
+           ">
+
+            <img border="0"
+                 name="family"
+                 src="images/JustMarried.png">
+        </a>
+
+        <br>
+
+        <span id="caption2">Just Married</span>
+        <h2>Click on the images to change the main picture</h2>
+    </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Fryer</p>
+        <p><a href="../index.html">Back to Portal</a></p>
+    </footer>
+
+</body>
+
+</html>
