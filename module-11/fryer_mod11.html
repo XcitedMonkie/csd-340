@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+        Name: Daniel Fryer
+        Assignment 11.2
+    -->
+
+    <meta charset="UTF-8">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+    <link rel="stylesheet" type="text/css" href="fryer_mod11.css">
+
+    <script src="fryer_mod11.js" defer></script>
+</head>
+
+<body>
+
+    <h1>Assignment 11.2: JavaScript - Part 3</h1>
+
+    <div class="container">
+
+        <input type="text" id="itemInput" placeholder="Enter a task">
+
+        <button onclick="addItem()">Add</button>
+
+        <button onclick="deleteLastEntry()">Delete Last Entry</button>
+
+        <button onclick="sortItems()">Sort</button>
+
+        <br><br>
+
+        <select id="deleteSelect">
+            <option value="">Select item to delete</option>
+        </select>
+
+        <button onclick="deleteSpecificItem()">Delete Selected Item</button>
+
+        <div id="displayArea">
+            <h3>Display the List:</h3>
+            <div id="output"></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
